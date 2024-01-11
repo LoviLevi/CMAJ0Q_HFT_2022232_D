@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+		<PackageReference Include="Moq" Version="4.16.1" />
+		<PackageReference Include="NUnit" Version="3.13.1" />
+		<PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMAJ0Q_HFT_2022232.Logic\CMAJ0Q_HFT_2022232.Logic.csproj" />
+    <ProjectReference Include="..\CMAJ0Q_HFT_2022232.Models\CMAJ0Q_HFT_2022232.Models.csproj" />
+    <ProjectReference Include="..\CMAJ0Q_HFT_2022232.Repository\CMAJ0Q_HFT_2022232.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

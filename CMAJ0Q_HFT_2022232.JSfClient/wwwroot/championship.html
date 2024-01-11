@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Championship Catalog</h1>
+    <div class="Backbutton">
+        <a id="back" href="./index.html">BACK</a>
+    </div>
+
+
+    <div id="formdiv">
+        <label>Championship Name</label>
+        <input type="text" id="championshipname" />
+
+        <label>Championship Location</label>
+        <input type="text" id="championshiplocation" />
+        <button onclick="create()" type="button">Add Championship</button>
+    </div>
+
+
+
+    <div id="updateformdiv">
+        <label>Championship Name</label>
+        <input type="text" id="championshipnametoupdate" />
+
+        <label>Championship Location</label>
+        <input type="text" id="championshiplocationtoupdate" />
+        <button onclick="update()" type="button">Update Championship</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="resultarea">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

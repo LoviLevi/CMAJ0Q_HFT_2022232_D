@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Team Management</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Team Catalog</h1>
+    <div class="Backbutton">
+        <a id="back" href="./index.html">BACK</a>
+    </div>
+
+    <div id="formdiv">
+        <label>Team Name</label>
+        <input type="text" id="teamname" />
+
+        <label>Team Nickname</label>
+        <input type="text" id="teamnickname" />
+        <button onclick="createTeam()" type="button">Add Team</button>
+    </div>
+
+    <div id="updateformdiv">
+        <label>Team Name</label>
+        <input type="text" id="teamnametoupdate" />
+
+        <label>Team Nickname</label>
+        <input type="text" id="teamnicknametoupdate" />
+        <button onclick="updateTeam()" type="button">Update Team</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Nickname</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="teamresultarea">
+        </tbody>
+    </table>
+
+    <script src="teamscript.js"></script>
+
+</body>
+</html>

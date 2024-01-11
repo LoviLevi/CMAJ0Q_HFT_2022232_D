@@ -1,0 +1,30 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:27134",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "CMAJ0Q_HFT_2022232.JSfClient": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchUrl": "index.html",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5241",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchUrl": "index.html",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
